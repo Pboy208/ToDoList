@@ -1,0 +1,80 @@
+.user-section {
+  width: 13%;
+  height: 5rem;
+  position: relative;
+}
+
+.to-login-btn {
+  position: absolute;
+  top: 25%;
+  right: 0;
+  font-size: 1.6rem;
+  line-height: 50%;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border: solid 2px white;
+  border-radius: 10px;
+}
+
+.user-section__infomation {
+  position: absolute;
+  font-size: 20px;
+  height: calc(5rem - 15px);
+  margin-top: 15px;
+  padding: 10px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  color: white;
+}
+
+.user-section__infomation:hover {
+  color: #008080;
+  background-color: white;
+  cursor: pointer;
+}
+
+.user-section__infomation i {
+  position: absolute;
+  right: 10px;
+  top: 8%;
+  font-size: 24px;
+  color: white;
+}
+
+.user-section__infomation:hover i {
+  color: #008080;
+}
+
+.user-section__infomation:hover .selections {
+  display: block;
+}
+
+.selections {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style-type: none;
+  background-color: darkgray;
+  font-size: 16px;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.selections li {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  float: right;
+}
+
+.selections li a {
+  text-decoration: none;
+  color: white;
+}
+
+.selections li:hover,
+.selections li:hover a {
+  color: #008080;
+  background-color: white !important;
+}

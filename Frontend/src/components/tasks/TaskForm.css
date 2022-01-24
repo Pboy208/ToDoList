@@ -1,0 +1,47 @@
+form {
+  width: 70%;
+  margin: 10px 0 40px 0;
+  z-index: 1;
+}
+
+.field {
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #333333;
+}
+
+#name_input_field {
+  margin: 40px 0 0 0;
+}
+
+.invalid-message {
+  font-size: 14px;
+  color: red;
+  padding-left: 10px;
+  min-height: 30px;
+  line-height: 30px;
+}
+
+.field span {
+  color: red;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  height: 36px;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-top: 5px;
+  background-color: #c8c8c8;
+  border: none;
+}
+
+.field select {
+  cursor: pointer;
+}
+
+.btn span {
+  margin-left: 5px;
+}

@@ -1,0 +1,44 @@
+.user-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.user-register__header {
+  font-size: 44px;
+  width: 80%;
+  border-bottom: solid 3px black;
+  padding: 20px 0;
+}
+
+.user-register__field {
+  font-size: 20px;
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.user-register__field label {
+  width: 20%;
+  display: inline-block;
+  text-align: left;
+  font-size: 24px;
+}
+
+.user-register__field input {
+  width: 50%;
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+.user-register__field p {
+  min-height: 16.8px;
+  font-size: 14px;
+  color: salmon;
+  margin-top: 5px;
+}
+.user-register__submit-btn {
+  margin-top: 20px;
+}

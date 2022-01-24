@@ -1,0 +1,40 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.task__info {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  height: 62px;
+}
+
+.task__action {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  height: 62px;
+}
+
+.task__info__name {
+  width: 50%;
+}
+.task__info__status {
+  width: 30%;
+}
+.task__info__priority {
+  width: 16%;
+}
+
+.edit-btn,
+.delete-btn {
+  color: black;
+  display: inline-block;
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}

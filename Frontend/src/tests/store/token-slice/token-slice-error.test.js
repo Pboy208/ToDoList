@@ -1,0 +1,46 @@
+import { checkForTokenInStorage } from "../../../store/token-slice";
+
+const fakeDispatch = jest.fn();
+
+jest.mock("jwt-decode", () => () => ({
+  fullname: "fullname",
+  email: "email",
+  address: "address",
+  username: "username",
+  id: "userId",
+}));
+
+global.fetch = (api, options = { method: "POST" }) => {
+  switch (api) {
+    case "http://localhost:3001/auths/review":
+      return Promise.resolve({
+        ok: false,
+        // json: () => Promise.resolve({ token: "newFakeToken" }),
+      });
+    default:
+      return null;
+  }
+};
+
+describe("Thunks Testing", () => {
+  test("checkForTokenInStorage Testing - case token is not in storage", async () => {
+    var localStorageMock = (function () {
+      return {
+        getItem: function () {},
+        setItem: function () {},
+        removeItem: function () {},
+      };
+    })();
+
+    Object.defineProperty(window, "localStorage", {
+      value: localStorageMock,
+    });
+
+    await checkForTokenInStorage()(fakeDispatch);
+    expect(fakeDispatch).toBeCalledWith({
+      payload: undefined,
+      type: "token/setIsNotInStorage",
+    });
+  });
+
+});

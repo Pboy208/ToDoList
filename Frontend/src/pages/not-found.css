@@ -1,0 +1,24 @@
+.not-found {
+  height: 20rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.not-found p {
+  color: #262c2c;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.not-found a {
+  background-color: #262c2c;
+  line-height: 50px;
+  font-style: none;
+  text-decoration: none;
+}

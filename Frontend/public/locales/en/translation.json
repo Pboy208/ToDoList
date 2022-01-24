@@ -1,0 +1,88 @@
+{
+  "logo": "Let's do it",
+  "nav": {
+    "first": "To-do List",
+    "second": "New Task"
+  },
+  "lang-selector": {
+    "en": "English",
+    "vi": "Vietnamese"
+  },
+  "field-title": {
+    "name": "Name",
+    "status": "Status",
+    "priority": "Priority"
+  },
+  "task-form": {
+    "cancel-btn": "CANCEL",
+    "save-btn": "SAVE"
+  },
+  "delete": {
+    "message": "Do you want to delete this item",
+    "cancel-btn": "CANCEL",
+    "delete-btn": "DELETE"
+  },
+
+  "USER_INVALID_INPUT": "You have inserted invalid input(s)",
+  "USER_INVALID_LOGININFO": "Your password or username is wrong",
+  "USER_EXISTED_USERNAME": "You have inserted an existed username",
+  "USER_NOTFOUND": "This userID does not exist",
+  
+  "TOKEN_INVALID": "Token invalid or expired",
+  "TOKEN_ACCESS_DENIED": "Token's userID not match the userID you are try to modify, access denied",
+
+  "TASK_INVALID_INPUT": "You are trying to modify a task with invalid input",
+  "TASK_NOT_EXISTS": "You are trying to modify a task that is not exist",
+  "TASK_EXISTSED_NAME": "You are trying to modify a task with an existed name",
+  "SERVER_INTERNAL_ERROR": "Server internal error occurred, your change was not saved to Database!",
+  "AUTHORIZATION_FAILED": "Authorization failed",
+
+  "USERID_NOT_EXISTS": "Your token's userID can't be found in the system, authorization failed",
+
+  "You are trying to modify a task with invalid input": "You are trying to modify a task with invalid input",
+  "You are trying to modify a task that is not exist": "You are trying to modify a task that is not exist",
+  "You are trying to modify a task with an existed name": "You are trying to modify a task with an existed name",
+  "Server internal error occurred, your change was not saved to Database!": "Server internal error occurred, your change was not saved to Database!",
+
+  "confirm": "CONFIRM",
+
+  "OPEN": "OPEN",
+  "IN PROGRESS": "IN PROGRESS",
+  "DONE": "DONE",
+
+  "LOW": "LOW",
+  "MEDIUM": "MEDIUM",
+  "HIGH": "HIGH",
+
+  "login_required": "Login Required",
+  "username": "Username",
+  "password": "Password",
+  "login": "LOGIN",
+
+  "hello": "Hello",
+  "user_information": "User Information",
+  "all_accounts": "All Accounts",
+  "logout": "Logout",
+  "to_login": "To Login",
+
+  "registing_required": "Registing Required",
+  "full_name": "Full Name",
+  "user_name": "User Name",
+  "email": "Email",
+  "address": "Addres",
+  "save_btn": "SAVE",
+
+  "signup": "SIGN UP",
+  "add_new_account": "Add New Account",
+
+  "TOKEN_EXPIRED": "Your token has expired, please login again",
+  "TOKEN_NOT_IN_STORAGE": "You need to login first",
+
+  "ACCOUNT_UPDATED": "Account information succesfully updated",
+  "ACCOUNT_CREATED": "New account is succesfully added",
+
+  "TODOLIST_EMPTY": "Oh no,it seems like you don't have any task",
+  "TASK_NOTFOUND": "No task id match!",
+
+  "add_task": "Add a task"
+}

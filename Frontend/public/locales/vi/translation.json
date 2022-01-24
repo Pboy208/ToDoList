@@ -1,0 +1,88 @@
+{
+  "logo": "Let's do it",
+  "nav": {
+    "first": "Việc cần làm",
+    "second": "Thêm công việc"
+  },
+  "lang-selector": {
+    "en": "Tiếng anh",
+    "vi": "Tiếng việt"
+  },
+  "field-title": {
+    "name": "Tên của công việc",
+    "status": "Trạng thái",
+    "priority": "Mức ưu tiên"
+  },
+  "task-form": {
+    "cancel-btn": "XÓA",
+    "save-btn": "LƯU"
+  },
+  "delete": {
+    "message": "Bạn có muốn xóa công việc này không",
+    "cancel-btn": "HỦY",
+    "delete-btn": "XÓA"
+  },
+
+  "USER_INVALID_INPUT": "Bạn đã nhập thông tin sai định dạng",
+  "USER_INVALID_LOGININFO": "Mật khẩu hoặc tên tài khoản không đúng",
+  "USER_EXISTED_USERNAME": "Tên tài khoản đã tồn tại",
+  "USER_NOTFOUND": "Người dùng này không tồn tại",
+
+  "TOKEN_INVALID": "Token sai hoặc đã hết hạn",
+  "TOKEN_ACCESS_DENIED": "UserID của Token không khớp với tài khoản bạn muốn chỉnh sửa, yêu cầu bị từ chối",
+
+  "TASK_INVALID_INPUT": "Bạn đang thêm thông tin có định dạng sai",
+  "TASK_NOT_EXISTS": "Công việc bạn đang chỉnh sửa không tồn tại trên hệ thống",
+  "TASK_EXISTSED_NAME": "Bạn đang thêm công việc có tên bị trùng lặp trên hệ thống",
+  "SERVER_INTERNAL_ERROR": "Lỗi hệ thông xảy ra, các thay đổi của bạn chưa được lưu vào hệ thống!",
+  "AUTHORIZATION_FAILED": "Xác định quyền truy cập thất bại",
+
+  "USERID_NOT_EXISTS": "UserID trong token không tồn tại, xác định quyền truy cập thất bại",
+
+  "You are trying to modify a task with invalid input": "Bạn đang thêm thông tin có định dạng sai",
+  "You are trying to modify a task that is not exist": "Công việc bạn đang chỉnh sửa không tồn tại trên hệ thống",
+  "You are trying to modify a task with an existed name": "Bạn đang thêm công việc có tên bị trùng lặp trên hệ thống",
+  "Server internal error occurred, your change was not saved to Database!": "Lỗi hệ thông xảy ra, các thay đổi của bạn chưa được lưu vào hệ thống!",
+  
+  "confirm": "XÁC NHẬN",
+
+  "OPEN": "Chưa bắt đầu",
+  "IN PROGRESS": "Đang Thực hiện",
+  "DONE": "Hoàn thành",
+
+  "LOW": "Thấp",
+  "MEDIUM": "Trung bình",
+  "HIGH": "Cao",
+
+  "login_required": "Thông tin đăng nhập",
+  "username": "Tên người dùng",
+  "password": "Mật khẩu",
+  "login": "Đăng Nhập",
+
+  "hello": "Xin Chào",
+  "user_information": "Thông Tin Tài Khoản",
+  "all_accounts": "Tất Cả Tài Khoản",
+  "logout": "Đăng Xuất",
+  "to_login": "Đăng Nhập",
+
+  "registing_required": "Thông Tin Đăng Ký",
+  "full_name": "Họ và Tên",
+  "user_name": "Tên Đăng Nhập",
+  "email": "Email",
+  "address": "Địa Chỉ",
+  "save_btn": "LƯU",
+
+  "signup": "ĐĂNG KÝ",
+  "add_new_account": "Thêm Tài Khoản Mới",
+
+  "TOKEN_EXPIRED": "Phiên hoạt động của bạn đã hết, hãy đăng nhập lại",
+  "TOKEN_NOT_IN_STORAGE": "Bạn cần đăng nhập trước",
+
+  "ACCOUNT_UPDATED": "Thông tin tài khoản đã được cập nhật",
+  "ACCOUNT_CREATED": "Tài khoản mới đã được tạo",
+
+  "TODOLIST_EMPTY": "Có vẻ như bạn không còn công việc gì cần phải làm",
+  "TASK_NOTFOUND": "Không có ID nào giống cái bạn đang tìm!",
+
+  "add_task": "Thêm công việc"
+}

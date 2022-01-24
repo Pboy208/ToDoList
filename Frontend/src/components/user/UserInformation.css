@@ -1,0 +1,17 @@
+.user-information {
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  padding: 20px 0;
+  border: 1px solid black;
+}
+
+.user-information__username,
+.user-information__fullname,
+.user-information__email,
+.user-information__address {
+  font-size: 18px;
+  float: left;
+  width: 25%;
+}
